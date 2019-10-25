@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62A1355A236336B900A5BD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A13559236336B900A5BD2E /* AppDelegate.swift */; };
+		62A1355C236336B900A5BD2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1355B236336B900A5BD2E /* SceneDelegate.swift */; };
+		62A1355E236336B900A5BD2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1355D236336B900A5BD2E /* ContentView.swift */; };
+		62A13560236336BA00A5BD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A1355F236336BA00A5BD2E /* Assets.xcassets */; };
+		62A13563236336BA00A5BD2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A13562236336BA00A5BD2E /* Preview Assets.xcassets */; };
+		62A13566236336BA00A5BD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A13564236336BA00A5BD2E /* LaunchScreen.storyboard */; };
+		62A13571236336BA00A5BD2E /* bobbydex_by_tekkstudiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A13570236336BA00A5BD2E /* bobbydex_by_tekkstudiosTests.swift */; };
+		62A1357C236336BA00A5BD2E /* bobbydex_by_tekkstudiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1357B236336BA00A5BD2E /* bobbydex_by_tekkstudiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62A1356D236336BA00A5BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A1354E236336B900A5BD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A13555236336B900A5BD2E;
+			remoteInfo = "bobbydex-by-tekkstudios";
+		};
+		62A13578236336BA00A5BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A1354E236336B900A5BD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A13555236336B900A5BD2E;
+			remoteInfo = "bobbydex-by-tekkstudios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62A13556236336B900A5BD2E /* bobbydex-by-tekkstudios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bobbydex-by-tekkstudios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A13559236336B900A5BD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62A1355B236336B900A5BD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62A1355D236336B900A5BD2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62A1355F236336BA00A5BD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62A13562236336BA00A5BD2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62A13565236336BA00A5BD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62A13567236336BA00A5BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A1356C236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bobbydex-by-tekkstudiosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A13570236336BA00A5BD2E /* bobbydex_by_tekkstudiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobbydex_by_tekkstudiosTests.swift; sourceTree = "<group>"; };
+		62A13572236336BA00A5BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A13577236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bobbydex-by-tekkstudiosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A1357B236336BA00A5BD2E /* bobbydex_by_tekkstudiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobbydex_by_tekkstudiosUITests.swift; sourceTree = "<group>"; };
+		62A1357D236336BA00A5BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62A13553236336B900A5BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A13569236336BA00A5BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A13574236336BA00A5BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62A1354D236336B900A5BD2E = {
+			isa = PBXGroup;
+			children = (
+				62A13558236336B900A5BD2E /* bobbydex-by-tekkstudios */,
+				62A1356F236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests */,
+				62A1357A236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests */,
+				62A13557236336B900A5BD2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62A13557236336B900A5BD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A13556236336B900A5BD2E /* bobbydex-by-tekkstudios.app */,
+				62A1356C236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests.xctest */,
+				62A13577236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62A13558236336B900A5BD2E /* bobbydex-by-tekkstudios */ = {
+			isa = PBXGroup;
+			children = (
+				62A13559236336B900A5BD2E /* AppDelegate.swift */,
+				62A1355B236336B900A5BD2E /* SceneDelegate.swift */,
+				62A1355D236336B900A5BD2E /* ContentView.swift */,
+				62A1355F236336BA00A5BD2E /* Assets.xcassets */,
+				62A13564236336BA00A5BD2E /* LaunchScreen.storyboard */,
+				62A13567236336BA00A5BD2E /* Info.plist */,
+				62A13561236336BA00A5BD2E /* Preview Content */,
+			);
+			path = "bobbydex-by-tekkstudios";
+			sourceTree = "<group>";
+		};
+		62A13561236336BA00A5BD2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62A13562236336BA00A5BD2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62A1356F236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				62A13570236336BA00A5BD2E /* bobbydex_by_tekkstudiosTests.swift */,
+				62A13572236336BA00A5BD2E /* Info.plist */,
+			);
+			path = "bobbydex-by-tekkstudiosTests";
+			sourceTree = "<group>";
+		};
+		62A1357A236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62A1357B236336BA00A5BD2E /* bobbydex_by_tekkstudiosUITests.swift */,
+				62A1357D236336BA00A5BD2E /* Info.plist */,
+			);
+			path = "bobbydex-by-tekkstudiosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62A13555236336B900A5BD2E /* bobbydex-by-tekkstudios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A13580236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudios" */;
+			buildPhases = (
+				62A13552236336B900A5BD2E /* Sources */,
+				62A13553236336B900A5BD2E /* Frameworks */,
+				62A13554236336B900A5BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bobbydex-by-tekkstudios";
+			productName = "bobbydex-by-tekkstudios";
+			productReference = 62A13556236336B900A5BD2E /* bobbydex-by-tekkstudios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62A1356B236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A13583236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudiosTests" */;
+			buildPhases = (
+				62A13568236336BA00A5BD2E /* Sources */,
+				62A13569236336BA00A5BD2E /* Frameworks */,
+				62A1356A236336BA00A5BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A1356E236336BA00A5BD2E /* PBXTargetDependency */,
+			);
+			name = "bobbydex-by-tekkstudiosTests";
+			productName = "bobbydex-by-tekkstudiosTests";
+			productReference = 62A1356C236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62A13576236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A13586236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudiosUITests" */;
+			buildPhases = (
+				62A13573236336BA00A5BD2E /* Sources */,
+				62A13574236336BA00A5BD2E /* Frameworks */,
+				62A13575236336BA00A5BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A13579236336BA00A5BD2E /* PBXTargetDependency */,
+			);
+			name = "bobbydex-by-tekkstudiosUITests";
+			productName = "bobbydex-by-tekkstudiosUITests";
+			productReference = 62A13577236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62A1354E236336B900A5BD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Tracey Hemphill- Wright";
+				TargetAttributes = {
+					62A13555236336B900A5BD2E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					62A1356B236336BA00A5BD2E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 62A13555236336B900A5BD2E;
+					};
+					62A13576236336BA00A5BD2E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 62A13555236336B900A5BD2E;
+					};
+				};
+			};
+			buildConfigurationList = 62A13551236336B900A5BD2E /* Build configuration list for PBXProject "bobbydex-by-tekkstudios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62A1354D236336B900A5BD2E;
+			productRefGroup = 62A13557236336B900A5BD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62A13555236336B900A5BD2E /* bobbydex-by-tekkstudios */,
+				62A1356B236336BA00A5BD2E /* bobbydex-by-tekkstudiosTests */,
+				62A13576236336BA00A5BD2E /* bobbydex-by-tekkstudiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62A13554236336B900A5BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A13566236336BA00A5BD2E /* LaunchScreen.storyboard in Resources */,
+				62A13563236336BA00A5BD2E /* Preview Assets.xcassets in Resources */,
+				62A13560236336BA00A5BD2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A1356A236336BA00A5BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A13575236336BA00A5BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A13552236336B900A5BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A1355A236336B900A5BD2E /* AppDelegate.swift in Sources */,
+				62A1355C236336B900A5BD2E /* SceneDelegate.swift in Sources */,
+				62A1355E236336B900A5BD2E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A13568236336BA00A5BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A13571236336BA00A5BD2E /* bobbydex_by_tekkstudiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A13573236336BA00A5BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A1357C236336BA00A5BD2E /* bobbydex_by_tekkstudiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A1356E236336BA00A5BD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A13555236336B900A5BD2E /* bobbydex-by-tekkstudios */;
+			targetProxy = 62A1356D236336BA00A5BD2E /* PBXContainerItemProxy */;
+		};
+		62A13579236336BA00A5BD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A13555236336B900A5BD2E /* bobbydex-by-tekkstudios */;
+			targetProxy = 62A13578236336BA00A5BD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62A13564236336BA00A5BD2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62A13565236336BA00A5BD2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62A1357E236336BA00A5BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62A1357F236336BA00A5BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62A13581236336BA00A5BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bobbydex-by-tekkstudios/Preview Content\"";
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62A13582236336BA00A5BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bobbydex-by-tekkstudios/Preview Content\"";
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62A13584236336BA00A5BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudiosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bobbydex-by-tekkstudios.app/bobbydex-by-tekkstudios";
+			};
+			name = Debug;
+		};
+		62A13585236336BA00A5BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudiosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bobbydex-by-tekkstudios.app/bobbydex-by-tekkstudios";
+			};
+			name = Release;
+		};
+		62A13587236336BA00A5BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudiosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bobbydex-by-tekkstudios";
+			};
+			name = Debug;
+		};
+		62A13588236336BA00A5BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E46UBBK6WW;
+				INFOPLIST_FILE = "bobbydex-by-tekkstudiosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tekkstudios.bobbydex-by-tekkstudiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bobbydex-by-tekkstudios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62A13551236336B900A5BD2E /* Build configuration list for PBXProject "bobbydex-by-tekkstudios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A1357E236336BA00A5BD2E /* Debug */,
+				62A1357F236336BA00A5BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A13580236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A13581236336BA00A5BD2E /* Debug */,
+				62A13582236336BA00A5BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A13583236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A13584236336BA00A5BD2E /* Debug */,
+				62A13585236336BA00A5BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A13586236336BA00A5BD2E /* Build configuration list for PBXNativeTarget "bobbydex-by-tekkstudiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A13587236336BA00A5BD2E /* Debug */,
+				62A13588236336BA00A5BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62A1354E236336B900A5BD2E /* Project object */;
+}
